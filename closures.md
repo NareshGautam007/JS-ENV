@@ -3,7 +3,7 @@
 The functions and the lexical environment are bound together in JavaScript as called as the closure
 
 ## Example
-![Closure img](../JS-ENV/images/closure.png)
+![Closure img]("https://ibb.co/DCGFvGz")
 
 ##Script Example
 ```
