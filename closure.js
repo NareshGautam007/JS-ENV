@@ -110,3 +110,12 @@ counterWithConstructorObj.deCrement() // 0
 
 
 
+
+// Disadvange of the closure
+// Clouser is takes all of momory the execute the function with exumulate the veriable and fucntioson 
+// if the closure is not handle properly this can cause of the momory leaks or freeze the executation or browser
+// Becuase the closure is not garabse collector untill the whole execution is done
+
+//### Garbase collection 
+// Garbase collection is the machenisam which is take the unused verible and function the takes them at the time of execution and remove from memeru 
+// V8 and Chrome has smart garbase collection machanisam
