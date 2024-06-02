@@ -34,3 +34,35 @@ garbageCollection();
 ```
 In this example, the `largeData` array is eligible for garbage collection after the `garbageCollection` function has finished executing, as there are no references to `largeData` left.
 ```
+
+1. Function Call:
+   +-----------------------------+
+   | garbageCollection Function |
+   |   +---------------------+  |
+   |   | largeData Variable  |  |
+   |   +---------------------+  |
+   +-----------------------------+
+
+2. Function Execution:
+   +-----------------------------+
+   | garbageCollection Function |
+   |   +---------------------+  |
+   |   | largeData Variable  |  |
+   |   +---------------------+  |
+   +-----------------------------+
+
+3. Function Completion:
+   +-----------------------------+
+   |   (garbageCollection has   |
+   |    finished executing)     |
+   +-----------------------------+
+   +---------------------+
+   | largeData Variable  |  <--- Eligible for garbage collection
+   +---------------------+
+
+4. Garbage Collection:
+   +-----------------------------+
+   |   (Memory freed up by the  |
+   |    garbage collector)      |
+   +-----------------------------+
+
