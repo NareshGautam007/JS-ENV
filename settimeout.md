@@ -1,4 +1,3 @@
-```markdown
 # JavaScript setTimeout and Closure
 
 This material covers the use of `setTimeout` function and closures in JavaScript.
