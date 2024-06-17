@@ -1,4 +1,3 @@
-```markdown
 # JavaScript Closures
 
 Closures in JavaScript are functions that have access to the outer (enclosing) function's variables—scope chain.
