@@ -1,5 +1,5 @@
 ```markdown
-# JavaScript Closures and Garbage Collection
+## JavaScript Closures and Garbage Collection
 
 ## Disadvantages of Closures
 
